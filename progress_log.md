@@ -1,6 +1,6 @@
 # Progress Log
 
-This markdown file serves as a log file which records the progress of our project.
+This markdown file serves as a log that records the progress of our project.
 
 ### 2017-11-02
 
