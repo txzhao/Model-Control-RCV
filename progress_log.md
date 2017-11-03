@@ -12,11 +12,11 @@ This markdown file serves as a log that records the progress of our project.
   - issue about ros installation on mac;
   - issue about "cannot connect to display" when launching rviz on windows 10 -> go with ubuntu via virtualbox (TODO).
 - **next move:** 
-  - read literature [Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle](http://ieeexplore.ieee.org/document/7995737/?reload=true).
+  - read literature [*Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle*](http://ieeexplore.ieee.org/document/7995737/?reload=true).
 
 ### 2017-11-03
 
-－ **done:**
+- **done:**
   - group meeting in ITRL;
   - perform test run of simulator [*car_demo*](https://github.com/ecward/car_demo) on the shared laptop, with ~0.7 real time factor;
   - try setting up TortoiseGit for Bitbucket and finish before sub-step 5 of step 5 according to the [instruction](https://gist.github.com/svanas/87330eeb17313ea50d5cf9c265ab693f#step-3-add-your-public-key-to-bitbucket).
@@ -24,6 +24,6 @@ This markdown file serves as a log that records the progress of our project.
   - when starting simulation, we need to untick a lot of properties in rviz to increase real time factor. probably need to check some ways to keep some of the fancy properties while maintaining a high real time factor;
   - some file paths indicated in the [instruction](https://gist.github.com/svanas/87330eeb17313ea50d5cf9c265ab693f#step-3-add-your-public-key-to-bitbucket) are non-existent or maybe deprecated, e.g. ```C:\Users\<your user name>\AppData\Local\GitHub\PORTAB~1\cmd``` in sub-step 5 of step 5.
 - **next move:** 
-  - read literature [Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle](http://ieeexplore.ieee.org/document/7995737/?reload=true) and those RCV part of literature [Development of Platform-Independent System for Cooperative Automated Driving Evaluated in GCDC 2016](http://ieeexplore.ieee.org/document/7891914/);
-  - play around with ros tutorial beginner level and the [turtlesim tutorials](http://wiki.ros.org/turtlesim/Tutorials) if possible;
+  - read literature [*Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle*](http://ieeexplore.ieee.org/document/7995737/?reload=true) and those RCV part of literature [*Development of Platform-Independent System for Cooperative Automated Driving Evaluated in GCDC 2016*](http://ieeexplore.ieee.org/document/7891914/);
+  - play around with ros tutorial beginner level and the [*turtlesim tutorials*](http://wiki.ros.org/turtlesim/Tutorials) if possible;
   - try finding the model part of the simulator in repo [*car_demo*](https://github.com/ecward/car_demo).
