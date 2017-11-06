@@ -27,3 +27,11 @@ This markdown file serves as a log that records the progress of our project.
   - read literature [*Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle*](http://ieeexplore.ieee.org/document/7995737/?reload=true) and those RCV part of literature [*Development of Platform-Independent System for Cooperative Automated Driving Evaluated in GCDC 2016*](http://ieeexplore.ieee.org/document/7891914/);
   - play around with ros tutorial beginner level and the [*turtlesim tutorials*](http://wiki.ros.org/turtlesim/Tutorials) if possible;
   - try finding the model part of the simulator in repo [*car_demo*](https://github.com/ecward/car_demo).
+  
+  ### 2017-11-06
+
+- **done:**
+  - finished setting up git and bitbucket. The previous [instruction](https://gist.github.com/svanas/87330eeb17313ea50d5cf9c265ab693f#step-3-add-your-public-key-to-bitbucket) turns out to be too redundant to help, and we switch to this [writeup](http://guganeshan.com/blog/setting-up-git-and-tortoisegit-with-bitbucket-step-by-step.html) for quick setup.
+- **unsolved:**
+
+- **next move:** 
