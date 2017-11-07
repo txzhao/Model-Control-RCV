@@ -48,3 +48,11 @@ This markdown file serves as a log that records the progress of our project.
   - cloned the simulink files to the local.
 - **next move:** 
   - replace the parameters in the simulink diagram with RCV parameters.
+  
+### 2017-11-08
+
+- **done:**
+  - workshop about project management and scrum;
+  - git-cloned the new branch [*new_car_model*](https://github.com/ecward/car_demo/tree/new_car_model) into local repo and tested its running (by launching [rcv_sim.launch](https://github.com/ecward/car_demo/blob/new_car_model/car_demo/launch/rcv_sim.launch)).
+- **next move:** 
+  - replace the parameters in the simulink diagram with RCV parameters.
