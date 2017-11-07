@@ -2,6 +2,10 @@
 
 This markdown file serves as a log that records the progress of our project.
 
+| Week 1  | Week 2  | Week 3  |
+| --------|:-------:| -------:|
+|    x    |         |         |
+
 ### 2017-11-02
 
 - **done:**
