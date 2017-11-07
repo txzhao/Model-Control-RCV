@@ -2,6 +2,8 @@
 
 This markdown file serves as a log that records the progress of our project.
 
+---
+
 | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 |
 |:------:|--------|--------|--------|--------|--------|--------|--------|
 |    x   |        |        |        |        |        |        |        |
@@ -32,6 +34,12 @@ This markdown file serves as a log that records the progress of our project.
   - play around with ros tutorial beginner level and the [*turtlesim tutorials*](http://wiki.ros.org/turtlesim/Tutorials) if possible;
   - try finding the model part of the simulator in repo [*car_demo*](https://github.com/ecward/car_demo).
   
+---
+
+| Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 |
+|:------:|:------:|--------|--------|--------|--------|--------|--------|
+|    x   |    x   |        |        |        |        |        |        |
+
 ### 2017-11-06
 
 - **done:**
