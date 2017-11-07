@@ -31,7 +31,8 @@ This markdown file serves as a log that records the progress of our project.
 ### 2017-11-06
 
 - **done:**
-  - finished setting up git and bitbucket. The previous [instruction](https://gist.github.com/svanas/87330eeb17313ea50d5cf9c265ab693f#step-3-add-your-public-key-to-bitbucket) turns out to be too redundant to help, and we switch to this [writeup](http://guganeshan.com/blog/setting-up-git-and-tortoisegit-with-bitbucket-step-by-step.html) for quick setup;<a name="solved_issue_1"></a>
+<a name="solved_issue_1"></a>
+  - finished setting up git and bitbucket. The previous [instruction](https://gist.github.com/svanas/87330eeb17313ea50d5cf9c265ab693f#step-3-add-your-public-key-to-bitbucket) turns out to be too redundant to help, and we switch to this [writeup](http://guganeshan.com/blog/setting-up-git-and-tortoisegit-with-bitbucket-step-by-step.html) for quick setup;
   - cloned the simulink files to the local.
 - **next move:** 
   - replace the parameters in the simulink diagram with RCV parameters.
