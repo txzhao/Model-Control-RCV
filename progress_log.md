@@ -58,4 +58,4 @@ This markdown file serves as a log that records the progress of our project.
   - It seems that rviz is automatically turned off when running the new branch. So perhaps we need to check this and modify it to have the rviz window popped up if those fancy properties, say camera views, are desired.
 - **next move:** 
   - double-check the issue above. It could just be a program crashing problem;
-  - literatre reading.
+  - literature reading.
