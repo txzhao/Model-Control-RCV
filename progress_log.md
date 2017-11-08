@@ -12,7 +12,7 @@ This markdown file serves as a log that records the progress of our project.
 
 - **done:**
   - group meeting in the morning;
-  - finished ros installation along with rviz and gazebo 8.1;
+  - finished ros installation (kinetic) along with rviz and gazebo 8.1;
   - went through ros tutorial 1.1.1-1.1.3.
 - **unsolved:**
   - issue about ros installation on mac;
