@@ -49,7 +49,7 @@ This markdown file serves as a log that records the progress of our project.
 - **next move:** 
   - replace the parameters in the simulink diagram with RCV parameters.
   
-### 2017-11-08
+### 2017-11-07
 
 - **done:**
   - workshop about project management and scrum;
