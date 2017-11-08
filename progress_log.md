@@ -4,9 +4,9 @@ This markdown file serves as a log that records the progress of our project.
 
 ---
 
-| Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 |
-|:------:|--------|--------|--------|--------|--------|--------|--------|
-|    x   |        |        |        |        |        |        |        |
+| Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 |
+|:------:|--------|--------|--------|--------|--------|--------|
+|    x   |        |        |        |        |        |        |
 
 ### 2017-11-02
 
@@ -36,9 +36,9 @@ This markdown file serves as a log that records the progress of our project.
   
 ---
 
-| Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 |
-|:------:|:------:|--------|--------|--------|--------|--------|--------|
-|    x   |    x   |        |        |        |        |        |        |
+| Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | 
+|:------:|:------:|--------|--------|--------|--------|--------|
+|    x   |    x   |        |        |        |        |        | 
 
 ### 2017-11-06
 
