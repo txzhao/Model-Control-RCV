@@ -3,7 +3,7 @@
 This markdown file serves as a log that records the progress of our project.
 
 <a name="project_plan"></a>
-## Project Plan
+### Project Plan
 
 | Sprint No. | Tasks planned to finish |
 |:----------:|:-----------------------|
