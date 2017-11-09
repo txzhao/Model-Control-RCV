@@ -2,8 +2,8 @@
 
 This markdown file serves as a log that records the progress of our project.
 
-## Project Plan
 <a name="project_plan"></a>
+## Project Plan
 
 | Sprint No. | Tasks planned to finish |
 |:----------:|:-----------------------|
@@ -66,7 +66,7 @@ This markdown file serves as a log that records the progress of our project.
   - workshop about project management and scrum;
   - git-cloned the new branch [*new_car_model*](https://github.com/ecward/car_demo/tree/new_car_model) (this branch already replaces the Toyota model with RCV) into local repo and tested its running (roslaunch car_demo [rcv_sim.launch](https://github.com/ecward/car_demo/blob/new_car_model/car_demo/launch/rcv_sim.launch)). You can find the command line for git-cloning a specific branch [here](https://stackoverflow.com/questions/4811434/clone-only-one-branch).
 - **unsolved:**
-  - It seems that rviz is automatically turned off when running the new branch. So perhaps we need to check this and modify it to have the rviz window popped up if those fancy properties, say camera views, are desired.
+  - ~~It seems that rviz is automatically turned off when running the new branch. So perhaps we need to check this and modify it to have the rviz window popped up if those fancy properties, say camera views, are desired~~ (solved in the record of [2017-11-09](#solved_issue_2)).
 - **next move:** 
   - double-check the issue above. It could just be a program crashing problem;
   - literature reading.
@@ -77,6 +77,8 @@ This markdown file serves as a log that records the progress of our project.
   - We made a (preliminary) plan of our project, including 5 sprints of one week each. The sprint project plan can be found [here](#project_plan).
   - We started trying to find the inputs and outputs. The following graph illustrates the variabes. 
   ![MPC Inputs/Outputs](https://github.com/txzhao/Model-Control-RCV/blob/master/pic/MPCInputOutput.jpg)
+  <a name="solved_issue_2"></a>
+  - Looked into the rviz-not-popping-up issue. The reason for it comes as: in the launch file *rcv_sim.launch*, line 34-36 are commented out. So the rviz package and window will not be started.
 - **next move:** 
   - Understand the input/output variables, such as what are their units.
   - Verify plan.
