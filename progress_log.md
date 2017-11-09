@@ -5,6 +5,8 @@ This markdown file serves as a log that records the progress of our project.
 ## Project Plan
 <a name="project_plan"></a>
 
+| Sprint No. | Tasks planned to finish |
+|:----------:|:-----------------------:|
 | Sprint 1 |Identify Input/Output variables to the MPC controller, as well as Input variables to the ROS simulator. (BONUS: Try to implement a simple PI-controller.) | 
 |:--------:|--------|
 |    x     |        |
