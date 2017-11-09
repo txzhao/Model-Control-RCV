@@ -78,7 +78,7 @@ This markdown file serves as a log that records the progress of our project.
   - We started trying to find the inputs and outputs. The following graph illustrates the variabes. 
   ![MPC Inputs/Outputs](https://github.com/txzhao/Model-Control-RCV/blob/master/pic/MPCInputOutput.jpg)
   <a name="solved_issue_2"></a>
-  - Looked into the rviz-not-popping-up issue. The reason for it comes as: in the launch file *rcv_sim.launch*, line 34-36 are commented out. So the rviz package and window will not be started.
+  - Looked into the rviz-not-popping-up issue. The reason for it comes as: in the launch file [*rcv_sim.launch*](https://github.com/ecward/car_demo/blob/new_car_model/car_demo/launch/rcv_sim.launch), line 34-36 are commented out. That's why the rviz window is not started.
 - **next move:** 
   - Understand the input/output variables, such as what are their units.
   - Verify plan.
