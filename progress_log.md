@@ -3,10 +3,13 @@
 This markdown file serves as a log that records the progress of our project.
 
 ## Project Plan
-
 <a name="project_plan"></a>
-  #### Project Plan:
-   1. Identify Input/Output variables to the MPC controller, as well as Input variables to the ROS simulator. (BONUS: Try to implement a simple PI-controller.)
+
+| Sprint 1 |Identify Input/Output variables to the MPC controller, as well as Input variables to the ROS simulator. (BONUS: Try to implement a simple PI-controller.) | 
+|:--------:|--------|
+|    x     |        |
+
+   1. 
    2. Compute new dynamics. The ROS simulator used a toyota car, but now uses the RCV. This implies we need to change some dynamic variables, such as the mass, max wheel angle, etc.
    3. Upgrade PI-controller to MPC-controller.
    4. Integrate and verify the new system. The MPC controller should now work in ROS.
