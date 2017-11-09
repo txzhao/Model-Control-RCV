@@ -64,13 +64,14 @@ This markdown file serves as a log that records the progress of our project.
 
 - **done:**
   - We made a (preliminary) plan of our project, including 5 sprints of one week each. The sprint project plan can be found below.
+  - We started trying to find the inputs and outputs. The following graph illustrates the variabes. 
+  [logo]: https://github.com/txzhao/Model-Control-RCV/blob/master/pic/MPCInputOutput.jpg "MPC Inputs/Outputs"
   #### Project Plan:
     1. Identify Input/Output variables to the MPC controller, as well as Input variables to the ROS simulator. (BONUS: Try to implement a simple PI-controller.)
     2. Compute new dynamics. The ROS simulator used a toyota car, but now uses the RCV. This implies we need to change some dynamic variables, such as the mass, max wheel angle, etc.
     3. Upgrade PI-controller to MPC-controller.
     4. Integrate and verify the new system. The MPC controller should now work in ROS.
     5. Movie and project completion.
-  - We started trying to find the inputs and outputs. The following grpah illustrates the variabes.
 - **unsolved:**
 - **next move:** 
   - Understand the input/output variables
