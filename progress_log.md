@@ -60,7 +60,7 @@ This markdown file serves as a log that records the progress of our project.
   - double-check the issue above. It could just be a program crashing problem;
   - literature reading.
   
-  ### 2017-11-09
+### 2017-11-09
 
 - **done:**
   - We made a (preliminary) plan of our project, including 5 sprints of one week each. The sprint project plan can be found below.
@@ -72,7 +72,6 @@ This markdown file serves as a log that records the progress of our project.
     3. Upgrade PI-controller to MPC-controller.
     4. Integrate and verify the new system. The MPC controller should now work in ROS.
     5. Movie and project completion.
-- **unsolved:**
 - **next move:** 
   - Understand the input/output variables, such as what are their units.
   
