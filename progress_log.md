@@ -74,5 +74,5 @@ This markdown file serves as a log that records the progress of our project.
     5. Movie and project completion.
 - **unsolved:**
 - **next move:** 
-  - Understand the input/output variables
+  - Understand the input/output variables, such as what are their units.
   
