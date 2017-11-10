@@ -11,7 +11,7 @@ This markdown file serves as a log that records the progress of our project.
 | 2 | <ul><li>Compute new dynamics from the collected real data. The ROS simulator used a toyota car, but now uses the RCV. This implies we need to change some dynamic variables, such as the mass, max wheel angle, etc. </li><li> Verify the dynamics, to make sure that they are correct by comparing them with those parameters in dSpace. |
 | 3 | <ul><li>Upgrade the PI-controller in ROS to an MPC-controller, and verify it using the same experimental settings of the literature [*Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle*](http://ieeexplore.ieee.org/document/7995737/?reload=true). </li><li> Connect output from dSpace to input in ROS. |
 | 4 | <ul><li>Connect the output of the MPC controller in ROS to the low-level controller in dSpace. The new MPC system in ROS should now be fully implemented, as it has input from high-level controller in dSpace, and gives output to low-level controller in dSpace. </li><li>Verify the new system by running a simulation from dSpace. |
-| 5 | Movie and project completion. |
+| 5 | <ul><li>Create a movie that includes a project description as well as a demonstration of the end results. </li><li>Prepare a project presentation for the class. |
 
 ---
 
