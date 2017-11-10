@@ -9,8 +9,8 @@ This markdown file serves as a log that records the progress of our project.
 |:----------:|:-----------------------|
 | 1 |<ul><li>Identify Input/Output variables to the MPC controller in dSpace. </li><li>Identify Input variables to the ROS simulator. </li><li>Determine the variables needed from the above tasks, as well as the units of these variables. </li><li> Implement a simple PI-controller in ROS, and go check if (1) it could control the vehicle to go straight with constant velocity; (2) it could control the vehicle speed up or slow down quickly. | 
 | 2 | <ul><li>Compute new dynamics from the collected real data. The ROS simulator used a toyota car, but now uses the RCV. This implies we need to change some dynamic variables, such as the mass, max wheel angle, etc. </li><li> Verify the dynamics, to make sure that they are correct by comparing them with those parameters in dSpace. |
-| 3 | <ul><li>Upgrade the PI-controller in ROS to an MPC-controller, and verify it using the same experimental settings of the literature [*Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle*](http://ieeexplore.ieee.org/document/7995737/?reload=true). </li><li> Connect output from dSpace to iput in ROS. |
-| 4 | Integrate and verify the new system. The MPC controller should now work in ROS. |
+| 3 | <ul><li>Upgrade the PI-controller in ROS to an MPC-controller, and verify it using the same experimental settings of the literature [*Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle*](http://ieeexplore.ieee.org/document/7995737/?reload=true). </li><li> Connect output from dSpace to input in ROS. |
+| 4 | <ul><li>Connect the output of the MPC controller in ROS to the low-level controller in dSpace. The new MPC system in ROS should now be fully implemented, as it has input from high-level controller in dSpace, and gives output to low-level contrller in dSpace. </li><li>Verify the new system by running a simulation from dSpace. |
 | 5 | Movie and project completion. |
 
 ---
