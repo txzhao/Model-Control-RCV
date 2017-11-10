@@ -7,7 +7,7 @@ This markdown file serves as a log that records the progress of our project.
 
 | Sprint No. | Tasks planned to finish |
 |:----------:|:-----------------------|
-| 1 |<ul><li>Identify Input/Output variables to the MPC controller in dSpace. </li><li>Identify Input variables to the ROS simulator. <ul><li>Determine the variables needed from the above tasks and their units. <ul><li> Implement a simple PI-controller in ROS.| 
+| 1 |<ul><li>Identify Input/Output variables to the MPC controller in dSpace. </li><li>Identify Input variables to the ROS simulator. </li><li>Determine the variables needed from the above tasks and their units. </li><li> Implement a simple PI-controller in ROS.| 
 | 2 | Compute new dynamics. The ROS simulator used a toyota car, but now uses the RCV. This implies we need to change some dynamic variables, such as the mass, max wheel angle, etc. |
 | 3 | Implement a simple PI-controller on ROS simulator if it's not done in sprint 1. Upgrade PI-controller to MPC-controller. |
 | 4 | Integrate and verify the new system. The MPC controller should now work in ROS. |
