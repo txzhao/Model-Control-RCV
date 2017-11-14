@@ -86,7 +86,7 @@ This markdown file serves as a log that records the progress of our project.
 ### 2017-11-14
 
 - **done:**
-The following are the output variables of the MPC:
+  - The following are the output variables of the MPC:
 
 | Variable | Explanation |
 |----------|-------------|
@@ -97,7 +97,7 @@ The following are the output variables of the MPC:
 
 ---
 
--- In ROS, we Implemted an alternative to the joystick. We are now able to give an input (throttle, break, shiftgear, steer) to the car straight from the terminal.
+  - In ROS, we Implemted an alternative to the joystick. We are now able to give an input (throttle, break, shiftgear, steer) to the car straight from the terminal.
 
 - **next move:** 
 Implement PI controller in ROS and try it with a predefined path.
