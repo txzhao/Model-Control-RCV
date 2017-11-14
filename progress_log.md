@@ -88,7 +88,6 @@ This markdown file serves as a log that records the progress of our project.
 - **done:**
 The following are the output variables of the MPC:
 
----
 | Variable | Explanation |
 |----------|-------------|
 | MtrTorqueReqAfterLogic | Values between -75-75 [Nm], which equals a force $F=\frac{\tau}{r}$, where r is wheel radius. This torque is applied to all four wheels, as the RCV uses four-wheel driving. | 
