@@ -91,7 +91,7 @@ The following are the output variables of the MPC:
 | Variable | Explanation |
 |----------|-------------|
 | MtrTorqueReqAfterLogic | Values between -75-75 [Nm], which equals a force $F=\frac{\tau}{r}$ forward, where r is wheel radius. This torque is applied to all four wheels, as the RCV uses four-wheel driving. | 
-| BrkTorqueReqAfterLogic | A torque value between 0-75 [Nm], with the expection of being set to 100 when the velocity is below 0.1[m]. In the same manner as previously, this equals a force F_{Brk} = \frac{\tau}{r}.|
+| BrkTorqueReqAfterLogic | A torque value between 0-75 [Nm], with the expection of being set to 100 when the velocity is below 0.1[m]. In the same manner as previously, this equals a force F_{Brk} = \frac{\tau}{r}. \beta|
 | engageMechBrake | A value that is set to one when BrkTorqueReqAfterLogic is nonzero, otherwise this variable is zero. |
 | curvatureReq | jfbirubnvrber |
 
@@ -99,5 +99,4 @@ The following are the output variables of the MPC:
 
 
 - **next move:** 
-  - replace the parameters in the simulink diagram with RCV parameters.
   
