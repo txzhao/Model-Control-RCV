@@ -93,7 +93,7 @@ This markdown file serves as a log that records the progress of our project.
 
 - **done:**
 
-  - In ROS, we Implemted an alternative to the joystick. We are now able to give an input (throttle, break, shiftgear, steer) to the car straight from the terminal.
+  - In ROS, we Implemented an alternative to the joystick. We are now able to give an bundle of inputs (throttle, break, shiftgear, steer) to the car straight from the terminal.
   - The following are the output variables of the MPC:
 
 | Variable | Explanation |
