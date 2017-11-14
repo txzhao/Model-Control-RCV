@@ -103,6 +103,5 @@ This markdown file serves as a log that records the progress of our project.
 | engageMechBrake | A value that is set to one when BrkTorqueReqAfterLogic is nonzero, otherwise this variable is zero. |
 | curvatureReq | Curvature value, K, that correspond to a circle with the radius R=1/K. This radius will through Ackerman optimal steering give the wheel angles. |
 
----
 - **next move:** 
 Implement PI controller in ROS and try it with a predefined path.
