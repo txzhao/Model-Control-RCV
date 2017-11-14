@@ -86,6 +86,8 @@ This markdown file serves as a log that records the progress of our project.
 ### 2017-11-14
 
 - **done:**
+
+  - In ROS, we Implemted an alternative to the joystick. We are now able to give an input (throttle, break, shiftgear, steer) to the car straight from the terminal.
   - The following are the output variables of the MPC:
 
 | Variable | Explanation |
@@ -96,8 +98,5 @@ This markdown file serves as a log that records the progress of our project.
 | curvatureReq | Curvature value, K, that correspond to a circle with the radius R=1/K. This radius will through Ackerman optimal steering give the wheel angles. |
 
 ---
-
-  - In ROS, we Implemted an alternative to the joystick. We are now able to give an input (throttle, break, shiftgear, steer) to the car straight from the terminal.
-
 - **next move:** 
 Implement PI controller in ROS and try it with a predefined path.
