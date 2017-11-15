@@ -41,9 +41,9 @@ class Translator:
         command = Control()
 
         command.throttle = self.operations[0]
-        command.brake = elf.operations[1]
+        command.brake = self.operations[1]
         command.shift_gears = self.operations[2]
-        command.steer = elf.operations[3]
+        command.steer = self.operations[3]
 
         self.pub.publish(command)
 
