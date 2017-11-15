@@ -102,6 +102,12 @@ This markdown file serves as a log that records the progress of our project.
 | BrkTorqueReqAfterLogic | A torque value between 0 - 75 [Nm], with the expection of being set to 100 when the velocity is below 0.1 [m]. In the same manner as previously, this equals a force F = T/r, with T and r same as previously. |
 | engageMechBrake | A value that is set to one when BrkTorqueReqAfterLogic is nonzero, otherwise this variable is zero. |
 | curvatureReq | Curvature value, K, that correspond to a circle with the radius R=1/K. This radius will through Ackerman optimal steering give the wheel angles. |
+| crabReq | Angle between the longitudinal line and the car direction. This angle combined with the curvature radius will through Ackerman optimal steering give the wheel angles. |
 
 - **next move:** 
 Implement PI controller in ROS and try it with a predefined path.
+
+### 2017-11-15
+
+- **done:**
+- **next move:** 
