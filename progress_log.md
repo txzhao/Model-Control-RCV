@@ -129,5 +129,6 @@ This markdown file serves as a log that records the progress of our project.
 - **done:**
   - Meeting and demonstration of our work this week. 
   - Solved Ackerman optimal steering in ROS. We can now simulate our car with correct 4-wheel steering based on a curvature and crabbing angle.
+  - Decided to work to divide upon: 1 person will rescale the skeleton of the car, 2 persons will redfine the interface and implement PI, the last person will read on MPC.
 - **next move:** 
   - Implement PI-controller that controlls a desired velocity and steering.
