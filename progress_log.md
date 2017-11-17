@@ -105,9 +105,15 @@ This markdown file serves as a log that records the progress of our project.
 | crabReq | Angle between the longitudinal line and the car direction. This angle combined with the curvature radius will through Ackerman optimal steering give the wheel angles. |
 
 - **next move:** 
-Implement PI controller in ROS and try it with a predefined path.
+  - Implement PI controller in ROS and try it with a predefined path.
 
 ### 2017-11-15
 
 - **done:**
+  - done with the meeting with Eric;
+  - changed some parts of the steering joints of back wheels; 
+  - enabled joystick node connection with gazebo.
 - **next move:** 
+  - solve the issue of the spinning back wheels.
+
+### 2017-11-16
