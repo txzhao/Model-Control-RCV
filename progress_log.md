@@ -123,3 +123,11 @@ This markdown file serves as a log that records the progress of our project.
   - tested Akermann steering on Matlab.
 - **next move:** 
   - transplant Akermann steering code to the simulator.
+  
+### 2017-11-17
+
+- **done:**
+  - Meeting and demonstration of our work this week. 
+  - Solved Ackerman optimal steering in ROS. We can now simulate our car with correct 4-wheel steering based on a curvature and crabbing angle.
+- **next move:** 
+  - Implement PI-controller that controlls a desired velocity and steering.
