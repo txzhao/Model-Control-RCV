@@ -117,3 +117,9 @@ This markdown file serves as a log that records the progress of our project.
   - solve the issue of the spinning back wheels.
 
 ### 2017-11-16
+
+- **done:**
+  - solved the issue of the spinning back wheels and sorted out the crabbing move;
+  - tested Akermann steering on Matlab.
+- **next move:** 
+  - transplant Akermann steering code to the simulator.
