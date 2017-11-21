@@ -132,3 +132,11 @@ This markdown file serves as a log that records the progress of our project.
   - Decided to work to divide upon: 1 person will rescale the skeleton of the car, 2 persons will redfine the interface and implement PI, the last person will read on MPC.
 - **next move:** 
   - Implement PI-controller that controlls a desired velocity and steering.
+
+### 2017-11-21
+
+- **done:**
+  - Managed to show the states in terminal as ROS runs, good for debugging.
+  - Had a meeting with Gonzalo (PHD who previously worked on the RCV). Told us to remember to update time delay to 0.1 when MPC in ROS
+- **next move:** 
+  - Implement PI-controller that controlls a desired velocity and steering.
