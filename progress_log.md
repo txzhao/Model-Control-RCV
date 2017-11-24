@@ -154,3 +154,8 @@ This markdown file serves as a log that records the progress of our project.
   - Updated the mass of the vehicle as well as the separate wheels. Moreover, we changed the max angle of the wheels to be the correct 25 degrees.
 - **next move:** 
   - Implement the MPC controller.
+  
+### 2017-11-24
+
+- **done:**
+  - Fixed the problem of steering control that the car can only steer with the same curvature. Reason being that we used a wrong variable name ste instead of steer in move.py. Code uploaded: https://github.com/txzhao/car_demo
