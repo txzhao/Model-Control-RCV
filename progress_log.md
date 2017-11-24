@@ -150,7 +150,7 @@ This markdown file serves as a log that records the progress of our project.
 ### 2017-11-23
 
 - **done:**
-  - Implemented PI-controller to control the desired velocity, based on outputs given from odometry. Turns out that controlling steering is not that easy, as there is no output from the system related to steering available. We currently do not know how create an interface for this.
+  - Implemented PI-controller to control the desired velocity as well as steering, based on a one time command.
   - Updated the mass of the vehicle as well as the separate wheels. Moreover, we changed the max angle of the wheels to be the correct 25 degrees.
 - **next move:** 
-  - Implement PI-controller that controlls steering.
+  - Implement the MPC controller.
