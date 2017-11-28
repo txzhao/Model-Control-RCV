@@ -159,3 +159,8 @@ This markdown file serves as a log that records the progress of our project.
 
 - **done:**
   - Fixed the problem of steering control that the car can only steer with the same curvature. Reason being that we used a wrong variable name ste instead of steer in move.py. Code uploaded: https://github.com/txzhao/car_demo
+
+### 2017-11-28
+
+- **done:**
+  - Trying new approaches to implement the MPC controller in ROS. Coding by ourselves seem to be too much a task, as problems pop up literally everywhere. Now trying to convert the code via Matlab Coder.
