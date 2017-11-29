@@ -11,15 +11,17 @@ braketorque 687.5203514400001
 
 ```cd catkin_ws
 catkin_make
-roslaunch run_sim run_sim.launch```
+roslaunch run_sim run_sim.launch
+```
 
 in a new terminal
 
 ```roslaunch move_base_config move_base.launch```
 
-new terminal
-> rosservice list |grep  file (could skip)
-> rosservice call /load_path_from_file "path_filename: '/home/el2425/catkin_ws/src/simulation_nodes/fake_planning/path_from_file_planner/data/path.dat' 
-> ignore_heading: false"
+in a new terminal
+```rosservice list |grep  file (could skip)
+rosservice call /load_path_from_file "path_filename: '/home/el2425/catkin_ws/src/simulation_nodes/fake_planning/path_from_file_planner/data/path.dat' 
+ignore_heading: false"
+```
 
 in rviz, add -> path
