@@ -1,17 +1,21 @@
-####camera view
+#### camera view
+
 <pose>4.5 -22 3.48 0 0.24 1.63</pose>
 
-####original initial parameters
+#### original initial parameters
+
 torque 859.4004393000001
 braketorque 687.5203514400001
 
-####launch planning-path visualizer
-> cd catkin_ws
-> catkin_make
-> roslaunch run_sim run_sim.launch
+#### launch planning-path visualizer
 
-new terminal
-> roslaunch move_base_config move_base.launch
+```cd catkin_ws
+catkin_make
+roslaunch run_sim run_sim.launch```
+
+in a new terminal
+
+```roslaunch move_base_config move_base.launch```
 
 new terminal
 > rosservice list |grep  file (could skip)
