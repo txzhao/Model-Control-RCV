@@ -1,10 +1,11 @@
-### camera view
+### camera view (close)
 
 <pose>4.5 -22 3.48 0 0.24 1.63</pose>
 
 ### original initial parameters
 
 torque 859.4004393000001
+
 braketorque 687.5203514400001
 
 ### launch planning-path visualizer
