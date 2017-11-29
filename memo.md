@@ -9,10 +9,9 @@ braketorque 687.5203514400001
 
 #### launch planning-path visualizer
 
-```cd catkin_ws
-catkin_make
-roslaunch run_sim run_sim.launch
-```
+`cd catkin_ws`
+`catkin_make`
+`roslaunch run_sim run_sim.launch`
 
 in a new terminal
 
