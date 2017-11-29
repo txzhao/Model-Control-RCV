@@ -19,8 +19,8 @@ in a new terminal
 ```roslaunch move_base_config move_base.launch```
 
 in a new terminal
-```rosservice list |grep  file (could skip)
-rosservice call /load_path_from_file "path_filename: '/home/el2425/catkin_ws/src/simulation_nodes/fake_planning/path_from_file_planner/data/path.dat' 
+```rosservice list |grep  file (could skip)```
+```rosservice call /load_path_from_file "path_filename: '/home/el2425/catkin_ws/src/simulation_nodes/fake_planning/path_from_file_planner/data/path.dat' 
 ignore_heading: false"
 ```
 
