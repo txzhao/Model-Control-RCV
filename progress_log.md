@@ -160,6 +160,10 @@ This markdown file serves as a log that records the progress of our project.
 - **done:**
   - Fixed the problem of steering control that the car can only steer with the same curvature. Reason being that we used a wrong variable name ste instead of steer in move.py. Code uploaded: https://github.com/txzhao/car_demo
 
+| Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | 
+|:------:|:------:|:------:|:------:|:------:|--------|--------|
+|    x   |    x   |    x   |    x   |   x    |        |        | 
+
 ### 2017-11-28
 
 - **done:**
