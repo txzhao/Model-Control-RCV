@@ -164,3 +164,8 @@ This markdown file serves as a log that records the progress of our project.
 
 - **done:**
   - Trying new approaches to implement the MPC controller in ROS. Coding by ourselves seem to be too much a task, as problems pop up literally everywhere. Now trying to convert the code via Matlab Coder.
+
+### 2017-11-29
+
+- **done:**
+  - Had a meeting with Yuchao, Erik and Lars where it was concluded that the task of replicating the full MPC code is too great. We instead decided to put more emphasis on understanding the MPC algorithm, and replica only the control algorithm. This task is easier as we do not now have to understand all the specific cases in Gonzalo's MPC controller.
