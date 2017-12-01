@@ -1,6 +1,8 @@
 # Memo
 
-This file contains a record of useful stuff in case we forget.
+This file contains a record of useful stuffs about this project in case we forget.
+
+----
 
 ### camera view (close)
 
