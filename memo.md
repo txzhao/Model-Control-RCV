@@ -2,8 +2,6 @@
 
 This file contains a record of useful stuffs about this project in case we forget.
 
-----
-
 ### camera view (close)
 
 <pose>4.5 -22 3.48 0 0.24 1.63</pose>
