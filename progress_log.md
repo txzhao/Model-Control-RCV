@@ -170,8 +170,17 @@ This markdown file serves as a log that records the progress of our project.
 
 - **done:**
   - Trying new approaches to implement the MPC controller in ROS. Coding by ourselves seem to be too much a task, as problems pop up literally everywhere. Now trying to convert the code via Matlab Coder.
+  - Changed the interface of simulator to take torques, curvature and crabbing angle as input (same as MPC).
 
 ### 2017-11-29
 
 - **done:**
   - Had a meeting with Yuchao, Erik and Lars where it was concluded that the task of replicating the full MPC code is too great. We instead decided to put more emphasis on understanding the MPC algorithm, and replica only the control algorithm. This task is easier as we do not now have to understand all the specific cases in Gonzalo's MPC controller.
+  - Partially finished pure pursuit control (for following a path) and PI control (for velocity control).
+- **unsolved:**
+  - pure pursuit control failed at the turning point. also sometimes get stuck at a specific point t when the car surpassed its previous point t-1 with a distance only larger than the threshold we define.
+
+### 2017-12-01
+
+- **done:**
+  - finished pure pursuit control to follow a predefined path. Turned out that we misunderstood the method in our previous implementation.
