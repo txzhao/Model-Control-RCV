@@ -8,6 +8,12 @@ torque 859.4004393000001
 
 braketorque 687.5203514400001
 
+### check RCV state from Gazebo
+
+```
+$ rostopic echo /base_pose_ground_truth
+```
+
 ### launch planning-path visualizer
 
 ```
