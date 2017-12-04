@@ -194,7 +194,7 @@ This markdown file serves as a log that records the progress of our project.
 ### 2017-12-04
 
 - **done:**
-  - add real-time xy plot of path by using matplotlib.pyplot.
+  - add [real-time xy plot](https://github.com/txzhao/car_demo/blob/master/car_demo/src/liveplot.py) of path by using matplotlib.pyplot.
   - another round of code cleanup for pure pursuit; fix torque control in the mode selection part.
 - **unsolved:**
   - check the dimension of vehicle by comparing it with the width of road.
