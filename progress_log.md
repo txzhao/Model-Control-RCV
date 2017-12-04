@@ -184,3 +184,18 @@ This markdown file serves as a log that records the progress of our project.
 
 - **done:**
   - finished pure pursuit control to follow a predefined path. Turned out that we misunderstood the method in our previous implementation.
+  
+---
+
+| Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | 
+|:------:|:------:|:------:|:------:|:------:|:------:|--------|
+|    x   |    x   |    x   |    x   |   x    |    x   |        | 
+
+### 2017-12-04
+
+- **done:**
+  - add real-time xy plot of path by using matplotlib.pyplot.
+  - another round of code cleanup for pure pursuit; fix torque control in the mode selection part.
+- **unsolved:**
+  - check the dimension of vehicle by comparing it with the width of road.
+  - pure pursuit has a large control error and we thought maybe we can try an adaptive lookahead during pure pursuit.
