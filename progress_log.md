@@ -197,5 +197,11 @@ This markdown file serves as a log that records the progress of our project.
   - add [real-time xy plot](https://github.com/txzhao/car_demo/blob/master/car_demo/src/liveplot.py) of path by using matplotlib.pyplot.
   - another round of code cleanup for pure pursuit; fix torque control in the mode selection part.
 - **unsolved:**
-  - check the dimension of vehicle by comparing it with the width of road.
+  - ~~check the dimension of vehicle by comparing it with the width of road.~~
   - pure pursuit has a large control error and we thought maybe we can try an adaptive lookahead during pure pursuit.
+  
+### 2017-12-05
+
+- **done:**
+  - checked the width of road (~14m), which corresponds to the width of a 4-lane highway.
+  - add yaw infomation in the live plot to visualize the heading direction of the car in real time.
