@@ -41,3 +41,7 @@ $ rosservice call /load_path_from_file "path_filename: '/home/el2425/catkin_ws/s
 ```
 
 in rviz, add -> path
+
+### road width
+
+checked coordinates of the car at both sides of the road (~14 m), which corresponds to the width of a 4-lane highway.
