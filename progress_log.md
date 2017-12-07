@@ -205,3 +205,9 @@ This markdown file serves as a log that records the progress of our project.
 - **done:**
   - checked the width of road (~14m), which corresponds to the width of a 4-lane highway.
   - add yaw infomation in the live plot to visualize the heading direction of the car in real time.
+
+### 2017-12-07
+
+- **done:**
+  - change the way of receiving velocity feedback from topic /rosout_agg to /base_link_ground_truth.
+  - tried and managed to build C++ package from generated code. now it formed a loop connection instead of a one-way connection between MPC node and gazebo.
