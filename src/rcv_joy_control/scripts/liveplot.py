@@ -4,54 +4,71 @@ import os
 import numpy as np
 from matplotlib import pyplot as plt
 from nav_msgs.msg import Odometry
+import tf
 import rospy
 import math
+import ConfigParser
+
 
 def plot_xy(msg):
 	global counter
-	path_name = "path3.dat"
-	path_dir = "/home/el2425/catkin_ws/src/car_demo/car_demo/src/paths/"
+	Config = ConfigParser.ConfigParser()
+	Config.read("/home/el2425/catkin_ws/src/car_demo/car_demo/src/configs/config.ini")
+
+	path_name = ConfigSectionMap(config=Config, section="Path")['name']
+	path_dir = ConfigSectionMap(config=Config, section="Path")['directory']
+	scale_x = Config.getfloat("Path", "scalex")
+	scale_y = Config.getfloat("Path", "scaley")
 	path_path = os.path.join(path_dir, path_name)
-	x0 = 3.0
-	y0 = -12.0
-	scale = 0.2
 
 	if counter == 0:
+		x0 = msg.pose.pose.position.x
+		y0 = msg.pose.pose.position.y
 		planPath = []
 		with open(path_path) as f:
 			for line in f:
 				cur_data = [float(x) for x in line.split(',')]
-				cur_data[0] *= scale
+				cur_data[0] *= scale_x
+				cur_data[1] *= scale_y
 				planPath.append(cur_data)
-		Path = np.array(interpolate(planPath))
+		Path = np.array(interpolate(shape=planPath, 
+			points_per_meter=Config.getint("Interpolate", "pointspermeter")))
 
-		plt.plot(x0 + Path[0, :], y0 + Path[1, :], linewidth=2.0)
-		#plt.plot(x0 + Path[0, :], y0 + Path[1, :], 'ko')
+		if Config.getint("LivePlot", "lineorscatter"):
+			plt.plot(x0 + Path[0, :], y0 + Path[1, :], linewidth=2.0)
+		else:
+			plt.plot(x0 + Path[0, :], y0 + Path[1, :], 'ko')
 		plt.draw()
-		plt.pause(1e-12)
+		plt.pause(Config.getfloat("LivePlot", "plotpause"))
 
-	elif counter%100 == 0:
+	elif counter%Config.getint("LivePlot", "samplingrate") == 0:
 		cur_x = msg.pose.pose.position.x
 		cur_y = msg.pose.pose.position.y
-		cur_yaw = msg.pose.pose.orientation.z
-		dx = math.sqrt(1.0/(1.0 + (np.tan(cur_yaw))**2))
+		quaternion = (
+			msg.pose.pose.orientation.x,
+			msg.pose.pose.orientation.y,
+			msg.pose.pose.orientation.z,
+			msg.pose.pose.orientation.w)
+		euler = tf.transformations.euler_from_quaternion(quaternion)
+		cur_yaw = euler[2]
+		dx = np.sign(np.cos(cur_yaw))*math.sqrt(1.0/(1.0 + (np.tan(cur_yaw))**2))
 		dy = dx*np.tan(cur_yaw)
 
 		plt.plot(cur_x, cur_y, 'ro')
 		ax = plt.axes()
-		ax.arrow(x=cur_x, y=cur_y, dx=dx, dy=dy, width=0.04, head_length=1.5, color='k')
+		ax.arrow(x=cur_x, y=cur_y, dx=dx, dy=dy, color='k')
 		plt.draw()
-		plt.pause(1e-12)
+		plt.pause(Config.getfloat("LivePlot", "plotpause"))
 	
 	plt.title("Path name: " + path_name)
 	plt.xlabel('x')
 	plt.ylabel('y')
 	counter += 1
 
-def interpolate(shape):
+
+def interpolate(shape, points_per_meter):
 	route_x = []
 	route_y = []
-	points_per_meter = 5
 
 	for index in range(1, len(shape)):
 		dist_x = shape[index][0] - shape[index - 1][0]
@@ -81,6 +98,21 @@ def interpolate(shape):
 	direction_list.append(0)
 
 	return [route_x, route_y, direction_list]
+
+
+def ConfigSectionMap(config, section):
+	dict1 = {}
+	options = config.options(section)
+	for option in options:
+		try:
+			dict1[option] = config.get(section, option)
+			if dict1[option] == -1:
+				DebugPrint("skip: %s" % option)
+		except:
+			print("exception on %s!" % option)
+			dict1[option] = None
+	return dict1
+
 
 if __name__ == '__main__':
 	counter = 0

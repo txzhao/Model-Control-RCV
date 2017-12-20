@@ -8,6 +8,6 @@
   <param name="dev" value="/dev/input/js1"/>
 </node>
 
-  <node pkg="rcv_joy_control" type="rcv_pp_controller_delay.py" name="rcv_pp_controller_delay" output="screen"/>
+  <node pkg="rcv_joy_control" type="rcv_pp_controller_no_sim.py" name="rcv_pp_controller_no_sim" output="screen"/>
 
 </launch>
