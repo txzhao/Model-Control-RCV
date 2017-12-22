@@ -24,6 +24,9 @@ $ cd catkin_ws/src/
 $ git clone https://github.com/ros-drivers/nmea_msgs.git
 $ git clone git@gits-15.sys.kth.se:rcv/rcv_communication.git
 ```
+Note to access the second repo rcv_communication, you need to own a [KTH Github](https://www.kth.se/en/student/kth-it-support/work-online/kth-github/kth-github-1.500062) account and [generate a SSH key](https://help.github.com/enterprise/2.11/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) which is associated with this account.
+
+- build up
 
 ## Results
 
