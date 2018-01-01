@@ -10,6 +10,12 @@ The project basically includes two lines of work, namely the RCV simulator and t
 
 ## How to run
 
+### Simulator work
+
+To launch the simulator and run different controllers on it, please see this [part](https://github.com/txzhao/car_demo#how-to-run) of the repo *txzhao/car_demo*.
+
+### RCV test run
+
 To connect to the RCV and perform control methods on it, following steps should be done:
 
 - git clone this repo and copy the two folders in /src to the src folder of your catkin workspace by
