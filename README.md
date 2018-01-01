@@ -10,9 +10,9 @@ The project basically includes two lines of work, namely the RCV simulator and t
 
 ## How to run
 
-### Simulator work
+### Run simulator
 
-To launch the simulator and run different controllers on it, please see this [part](https://github.com/txzhao/car_demo#how-to-run) of the repo *txzhao/car_demo*.
+To launch the simulator and run different controllers on it before RCV test run, please read this [part](https://github.com/txzhao/car_demo#how-to-run) of the repo *txzhao/car_demo*.
 
 ### RCV test run
 
