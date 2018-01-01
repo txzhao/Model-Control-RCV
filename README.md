@@ -6,13 +6,15 @@ The project basically includes two lines of work, namely the RCV simulator and t
 
 ## Motivation
 
+### User story
 
+“As an autonomous-vechicle researcher at [Integrated Transport Research Lab (ITRL)](https://www.itrl.kth.se/), I want to easily observe and pre-test the performance of an automatic controller so that I can understand whether this controller is ready to be applied and tested on the RCV.”
 
 ## How to run
 
 ### Run simulator
 
-To launch the simulator and run different controllers on it before RCV test run, please read this [part](https://github.com/txzhao/car_demo#how-to-run) of the repo *txzhao/car_demo*.
+To launch the simulator and run different controllers before RCV test run, please read this [part](https://github.com/txzhao/car_demo#how-to-run) of the repo *txzhao/car_demo*.
 
 ### RCV test run
 
