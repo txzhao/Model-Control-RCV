@@ -44,3 +44,9 @@ $ roslaunch rcv_joy_control pp_control_no_sim.launch
 ## Future work
 
 
+## Related materials
+
+- An introduction to car physics modelling for games [[link]](http://www.asawicki.info/Mirror/Car%20Physics%20for%20Games/Car%20Physics%20for%20Games.html)
+- ROS answers - plotting real time data [[link]](https://answers.ros.org/question/264767/plotting-real-time-data/)
+- GAZEBO answers - How to add a dynamic visual marker in gazebo? [[link]](http://answers.gazebosim.org/question/3383/how-to-add-a-dynamic-visual-marker-in-gazebo/#3394)
+
