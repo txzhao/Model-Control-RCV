@@ -16,7 +16,10 @@ To make the requirements more accessible, we prepare a user story to capture a d
 
 ### Specificications
 
+Research Concept Vechile (RCV) is currently faced with two major challenges during research and development:
 
+- To test algorithms on RCV, either we lift it above the ground a bit with the overhead travelling crane and observe the movements of the four individual wheels, or we ship the RCV to Aranda Test Track for a large field test. Both ways could take too much time and efforts, and turn out to be quite ineffective;
+- The previous work is heavily implemented in Simulink blocks, which could be replaced by other coding languages to boost computing efficiency for development purpose.
 
 ## How to run
 
