@@ -14,6 +14,9 @@ To make the requirements more accessible, we prepare a user story to capture a d
 >   1. easily observe and pre-test the performance of an automatic controller so that I can understand whether this controller is ready to be applied and tested on the RCV;
 >   2. shift the whole chunck of middle level controllers from Simulink blocks (dSpace) to Python so that more efficient and real-time computing could be achieved."
 
+### Specificications
+
+
 
 ## How to run
 
