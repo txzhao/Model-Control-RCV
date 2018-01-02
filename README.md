@@ -58,7 +58,9 @@ $ roslaunch rcv_joy_control pp_control_no_sim.launch
 
 ## Results
 
+For the simulator work, here are some [gifs](https://github.com/txzhao/car_demo#results) showing its performances.
 
+For RCV test run, please enjoy our project movie [here](https://www.youtube.com/watch?v=nw0xhZjIuw8).
 
 ## Future work
 
