@@ -8,15 +8,15 @@ The project basically includes two lines of work, namely the simulator of [KTH R
 
 - [Motivation](https://github.com/txzhao/Model-Control-RCV#motivation)
 	- [User story](https://github.com/txzhao/Model-Control-RCV#user-story)
-	- Specifications
-- Pipelines
-- How to run
-	- Run simulator
-	- RCV test run
-- Results
-- Future work
-- Reference
-- Related materials
+	- [Specifications](https://github.com/txzhao/Model-Control-RCV#specificications)
+- [Pipelines](https://github.com/txzhao/Model-Control-RCV#pipelines)
+- [How to run](https://github.com/txzhao/Model-Control-RCV#how-to-run)
+	- [Run simulator](https://github.com/txzhao/Model-Control-RCV#run-simulator)
+	- [RCV test run](https://github.com/txzhao/Model-Control-RCV#rcv-test-run)
+- [Results](https://github.com/txzhao/Model-Control-RCV#results)
+- [Future work](https://github.com/txzhao/Model-Control-RCV#future-work)
+- [Reference](https://github.com/txzhao/Model-Control-RCV#reference)
+- [Related materials](https://github.com/txzhao/Model-Control-RCV#related-materials)
 
 ## Motivation
 
