@@ -4,7 +4,7 @@ This is a repo for course project of [EL2425 Automatic Control, Project Course](
 
 The project basically includes two lines of work, namely the simulator of [KTH Research Concept Vehicle (RCV)](https://www.itrl.kth.se/research/itrl-labs/rcv-1.476469) and the RCV field test run. For the simulator work, we modified an open-source simulator [*car_demo*](https://github.com/osrf/car_demo) to make it compatible with the RCV. You can find it [here](https://github.com/txzhao/car_demo). For the RCV test run, we prepared two sets of configurations, and managed to control the RCV to move in different manners automatically.
 
-## Content
+## Table of contents
 
 - [Motivation](https://github.com/txzhao/Model-Control-RCV#motivation)
 	- [User story](https://github.com/txzhao/Model-Control-RCV#user-story)
@@ -37,7 +37,21 @@ Research Concept Vechile (RCV) is currently faced with two major challenges duri
 
 ## Pipelines
 
+As is mentioned previously, we prepared two sets of configurations for RCV test run：
 
+#### Closed-loop simulator + open-loop RCV
+
+In this configuration, we formed a closed loop in the simulator and share its control signal (output from controller) with the RCV, which actually performs a open-loop control during the RCV test run, see the figure below. 
+
+Note the feedback in this case is directly taken from the simulator, and is imaginarily considered and used as it is from the real world.
+
+![](https://github.com/txzhao/Model-Control-RCV/blob/master/pic/config_1.png)
+
+#### Closed-loop RCV
+
+
+
+![](https://github.com/txzhao/Model-Control-RCV/blob/master/pic/config_2.png)
 
 ## How to run
 
@@ -80,6 +94,10 @@ For the simulator work, here are some [gifs](https://github.com/txzhao/car_demo#
 
 For RCV test run, please enjoy our project movie [here](https://www.youtube.com/watch?v=nw0xhZjIuw8).
 
+## Analysis
+
+
+
 ## Future work
 
 - The path visualizer is simply a python live plot, and maybe it will be a better idea to visualize it directly in Gazebo (we could do this in rviz but this may slow down the simulation unexpectedly);
@@ -93,7 +111,6 @@ For RCV test run, please enjoy our project movie [here](https://www.youtube.com/
 **[2]** Collares Pereira, G. (2016). **Model Predictive Control for Autonomous Driving of Over-Actuated Research Vehicle** (Dissertation). Retrieved from http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-195028 [[paper]](https://kth.diva-portal.org/smash/get/diva2:1043944/FULLTEXT01.pdf)
 
 **[3]** Kokogias, Stefanos, et al. "**Development of Platform-Independent System for Cooperative Automated Driving Evaluated in GCDC 2016.**" IEEE Transactions on Intelligent Transportation Systems PP.99(2017):1-13. [[paper]](http://ieeexplore.ieee.org/document/7891914/)
-
 
 ## Related materials
 
