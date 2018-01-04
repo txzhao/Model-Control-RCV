@@ -2,7 +2,8 @@
 
 This is a repo for course project of [EL2425 Automatic Control, Project Course](https://www.kth.se/social/course/EL2425/) at KTH. 
 
-The project basically includes two lines of work, namely the RCV simulator and the RCV test run. For the simulator work, we modified an open-source simulator [*car_demo*](https://github.com/osrf/car_demo) to make it compatible with the RCV. You can find it [here](https://github.com/txzhao/car_demo). For the RCV test run, we prepared two sets of configurations.
+The project basically includes two lines of work, namely the simulator of [KTH Research Concept Vehicle (RCV)](https://www.itrl.kth.se/research/itrl-labs/rcv-1.476469) and the RCV field test run. For the simulator work, we modified an open-source simulator [*car_demo*](https://github.com/osrf/car_demo) to make it compatible with the RCV. You can find it [here](https://github.com/txzhao/car_demo). For the RCV test run, we prepared two sets of configurations respectively, and managed to control the RCV to move in different manners automatically.
+
 
 ## Motivation
 
@@ -20,6 +21,10 @@ Research Concept Vechile (RCV) is currently faced with two major challenges duri
 
 - To test algorithms on RCV, either we lift it above the ground a bit with the overhead travelling crane and observe the movements of the four individual wheels, or we ship the RCV to Aranda Test Track for a large field test. Both ways could take too much time and efforts, and turn out to be quite ineffective;
 - The previous work is heavily implemented in Simulink blocks, which could be replaced by other coding languages to boost computing efficiency for development purpose.
+
+## Pipelines
+
+
 
 ## How to run
 
@@ -63,6 +68,18 @@ For the simulator work, here are some [gifs](https://github.com/txzhao/car_demo#
 For RCV test run, please enjoy our project movie [here](https://www.youtube.com/watch?v=nw0xhZjIuw8).
 
 ## Future work
+
+- The path visualizer is simply a python live plot, and maybe it will be a better idea to visualize it directly in Gazebo (we could do this in rviz but this may slow down the simulation unexpectedly);
+- The MPC controller needs to be fixed in order to deal with the lane-changing situations;
+- The lagging effects of feedback from the odometry estimator in RCV terribly influence the field test performance of RCV. It's kind of urgent to find a better way of state estimation before improving the controllers.
+
+## Reference
+
+**[1]** Pereira, Gonçalo Collares, et al. "**Lateral Model Predictive Control for Over-Actuated Autonomous Vehicle.**" Intelligent Vehicles Symposium IEEE, 2017:310-316. [[paper]](http://ieeexplore.ieee.org/document/7995737/)
+
+**[2]** Collares Pereira, G. (2016). **Model Predictive Control for Autonomous Driving of Over-Actuated Research Vehicle** (Dissertation). Retrieved from http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-195028 [[paper]](https://kth.diva-portal.org/smash/get/diva2:1043944/FULLTEXT01.pdf)
+
+**[3]** Kokogias, Stefanos, et al. "**Development of Platform-Independent System for Cooperative Automated Driving Evaluated in GCDC 2016.**" IEEE Transactions on Intelligent Transportation Systems PP.99(2017):1-13. [[paper]](http://ieeexplore.ieee.org/document/7891914/)
 
 
 ## Related materials
