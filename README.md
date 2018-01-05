@@ -43,13 +43,15 @@ As is mentioned previously, we prepared two sets of configurations for RCV test 
 
 In this configuration, we formed a closed loop in the simulator and share its control signal (output from controller) with the RCV, which actually performs a open-loop control during the RCV test run, see the figure below. 
 
-Note the feedback in this case is directly taken from the simulator, and is imaginarily considered and used as it is from the real world.
+Note the feedback in this case is directly taken from the simulator, and is imaginarily considered and used as it is from the real world. The drawbacks thus are, 1) the error between RCV and the model in simulator may cause suboptimal control; 2) running the simulator and the RCV at the same time may put too much workload on the laptop.
 
 ![](https://github.com/txzhao/Model-Control-RCV/blob/master/pic/config_1.png)
 
 #### Closed-loop RCV
 
+Given the problems above, we also tried another set of configuration - we used the estimated measurements from odometry in RCV as feedback, and formed a closed control loop, see the figure below.
 
+Compared with the first configuration, the simulator part is abandoned in order to achieve a better efficiency. The feedback is actually fused and estimated from embedded sensors. However, in practice, the lagging effect of this feedback is quite obvious and badly influences the control performance during the RCV field test. 
 
 ![](https://github.com/txzhao/Model-Control-RCV/blob/master/pic/config_2.png)
 
@@ -93,10 +95,6 @@ $ roslaunch rcv_joy_control pp_control_no_sim.launch
 For the simulator work, here are some [gifs](https://github.com/txzhao/car_demo#results) showing its performances.
 
 For RCV test run, please enjoy our project movie [here](https://www.youtube.com/watch?v=nw0xhZjIuw8).
-
-## Analysis
-
-
 
 ## Future work
 
