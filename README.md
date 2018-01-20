@@ -2,7 +2,7 @@
 
 This is a repo for course project of [EL2425 Automatic Control, Project Course](https://www.kth.se/social/course/EL2425/) at KTH. 
 
-The project basically includes two lines of work, namely the simulator of [KTH Research Concept Vehicle (RCV)](https://www.itrl.kth.se/research/itrl-labs/rcv-1.476469) and the RCV field test run. For the simulator work, we modified an open-source simulator [*car_demo*](https://github.com/osrf/car_demo) to make it compatible with the RCV. You can find it [here](https://github.com/txzhao/car_demo). For the RCV test run, we prepared two sets of configurations, and managed to control the RCV to move in different manners automatically.
+The project basically includes two lines of work, namely the simulator of [KTH Research Concept Vehicle (RCV)](https://www.itrl.kth.se/research/projects/kth-rcv/rcv-1.476469) and the RCV field test run. For the simulator work, we modified an open-source simulator [*car_demo*](https://github.com/osrf/car_demo) to make it compatible with the RCV. You can find it [here](https://github.com/txzhao/car_demo). For the RCV test run, we prepared two sets of configurations, and managed to control the RCV to move in different manners automatically.
 
 We kept track of a [progress log](https://github.com/txzhao/Model-Control-RCV/blob/master/progress_log.md) of our project for synchronization between team members, and for some trivial details we also prepared a simple [memo](https://github.com/txzhao/Model-Control-RCV/blob/master/memo.md) to gather them up.
 
